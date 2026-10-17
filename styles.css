@@ -698,6 +698,10 @@ ul { list-style: none; }
   gap: var(--card-gap);
 }
 
+.about-grid > .about-card {
+  grid-column: 1 / -1;
+}
+
 /* ============================================
    EXPERIENCE (Timeline)
    ============================================ */
